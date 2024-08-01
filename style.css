@@ -1005,3 +1005,14 @@ mask-image: linear-gradient(to top, transparent 40%, #80f39f 80%) !important;
 .not-loaded * {
   animation-play-state: paused !important;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flowers {
+    margin-top: 20px;
+  }
+}
